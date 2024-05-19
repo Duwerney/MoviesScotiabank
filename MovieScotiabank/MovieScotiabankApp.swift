@@ -10,11 +10,13 @@ import SwiftUI
 @main
 struct MovieScotiabankApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+

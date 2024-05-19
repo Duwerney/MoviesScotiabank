@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6D51292BFA86F3004F7E45 /* MoviesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D51282BFA86F2004F7E45 /* MoviesViewModelTest.swift */; };
 		CEC96BF12BF808E7006D37EA /* MovieScotiabankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96BF02BF808E7006D37EA /* MovieScotiabankApp.swift */; };
 		CEC96BF32BF808E7006D37EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96BF22BF808E7006D37EA /* ContentView.swift */; };
 		CEC96BF52BF808EA006D37EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC96BF42BF808EA006D37EA /* Assets.xcassets */; };
@@ -16,6 +17,15 @@
 		CEC96C072BF808EB006D37EA /* MovieScotiabankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C062BF808EB006D37EA /* MovieScotiabankTests.swift */; };
 		CEC96C112BF808EB006D37EA /* MovieScotiabankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C102BF808EB006D37EA /* MovieScotiabankUITests.swift */; };
 		CEC96C132BF808EB006D37EA /* MovieScotiabankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C122BF808EB006D37EA /* MovieScotiabankUITestsLaunchTests.swift */; };
+		CEC96C252BF85016006D37EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C242BF85016006D37EA /* Movie.swift */; };
+		CEC96C272BF85073006D37EA /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C262BF85073006D37EA /* MovieService.swift */; };
+		CEC96C292BF927A5006D37EA /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C282BF927A5006D37EA /* MoviesViewModel.swift */; };
+		CEC96C2F2BF92F11006D37EA /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C2E2BF92F11006D37EA /* MovieResponse.swift */; };
+		CEC96C312BF93127006D37EA /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96C302BF93127006D37EA /* FiltersView.swift */; };
+		CEDF0EA22BF93776008B70F7 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0EA12BF93776008B70F7 /* MovieListView.swift */; };
+		CEE30A992BF9642900DA15AD /* MovieError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE30A982BF9642900DA15AD /* MovieError.swift */; };
+		CEE30A9B2BF99E5800DA15AD /* SearchBarRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE30A9A2BF99E5800DA15AD /* SearchBarRepresentable.swift */; };
+		CEE30A9F2BFA6F3400DA15AD /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE30A9E2BFA6F3400DA15AD /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE6D51282BFA86F2004F7E45 /* MoviesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModelTest.swift; sourceTree = "<group>"; };
 		CEC96BED2BF808E7006D37EA /* MovieScotiabank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieScotiabank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC96BF02BF808E7006D37EA /* MovieScotiabankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScotiabankApp.swift; sourceTree = "<group>"; };
 		CEC96BF22BF808E7006D37EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +59,15 @@
 		CEC96C0C2BF808EB006D37EA /* MovieScotiabankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieScotiabankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC96C102BF808EB006D37EA /* MovieScotiabankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScotiabankUITests.swift; sourceTree = "<group>"; };
 		CEC96C122BF808EB006D37EA /* MovieScotiabankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScotiabankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEC96C242BF85016006D37EA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CEC96C262BF85073006D37EA /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		CEC96C282BF927A5006D37EA /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		CEC96C2E2BF92F11006D37EA /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		CEC96C302BF93127006D37EA /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		CEDF0EA12BF93776008B70F7 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		CEE30A982BF9642900DA15AD /* MovieError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieError.swift; sourceTree = "<group>"; };
+		CEE30A9A2BF99E5800DA15AD /* SearchBarRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarRepresentable.swift; sourceTree = "<group>"; };
+		CEE30A9E2BFA6F3400DA15AD /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,13 @@
 			isa = PBXGroup;
 			children = (
 				CEC96BF02BF808E7006D37EA /* MovieScotiabankApp.swift */,
-				CEC96BF22BF808E7006D37EA /* ContentView.swift */,
 				CEC96BF42BF808EA006D37EA /* Assets.xcassets */,
 				CEC96BF92BF808EA006D37EA /* Persistence.swift */,
+				CEC96C1F2BF80A4D006D37EA /* Models */,
+				CEC96C202BF80A54006D37EA /* ViewModels */,
+				CEC96C212BF80A61006D37EA /* Views */,
+				CEC96C222BF84C4F006D37EA /* Services */,
+				CEC96C232BF84C6D006D37EA /* Utils */,
 				CEC96BFB2BF808EA006D37EA /* MovieScotiabank.xcdatamodeld */,
 				CEC96BF62BF808EA006D37EA /* Preview Content */,
 			);
@@ -120,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC96C062BF808EB006D37EA /* MovieScotiabankTests.swift */,
+				CE6D51282BFA86F2004F7E45 /* MoviesViewModelTest.swift */,
 			);
 			path = MovieScotiabankTests;
 			sourceTree = "<group>";
@@ -131,6 +156,51 @@
 				CEC96C122BF808EB006D37EA /* MovieScotiabankUITestsLaunchTests.swift */,
 			);
 			path = MovieScotiabankUITests;
+			sourceTree = "<group>";
+		};
+		CEC96C1F2BF80A4D006D37EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEC96C242BF85016006D37EA /* Movie.swift */,
+				CEC96C2E2BF92F11006D37EA /* MovieResponse.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CEC96C202BF80A54006D37EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEC96C282BF927A5006D37EA /* MoviesViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEC96C212BF80A61006D37EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC96BF22BF808E7006D37EA /* ContentView.swift */,
+				CEC96C302BF93127006D37EA /* FiltersView.swift */,
+				CEDF0EA12BF93776008B70F7 /* MovieListView.swift */,
+				CEE30A9A2BF99E5800DA15AD /* SearchBarRepresentable.swift */,
+				CEE30A9E2BFA6F3400DA15AD /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEC96C222BF84C4F006D37EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEC96C262BF85073006D37EA /* MovieService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CEC96C232BF84C6D006D37EA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEE30A982BF9642900DA15AD /* MovieError.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC96C272BF85073006D37EA /* MovieService.swift in Sources */,
+				CEDF0EA22BF93776008B70F7 /* MovieListView.swift in Sources */,
+				CEE30A9B2BF99E5800DA15AD /* SearchBarRepresentable.swift in Sources */,
 				CEC96BFA2BF808EA006D37EA /* Persistence.swift in Sources */,
 				CEC96BF32BF808E7006D37EA /* ContentView.swift in Sources */,
 				CEC96BF12BF808E7006D37EA /* MovieScotiabankApp.swift in Sources */,
+				CEC96C312BF93127006D37EA /* FiltersView.swift in Sources */,
+				CEE30A9F2BFA6F3400DA15AD /* SplashScreen.swift in Sources */,
+				CEC96C292BF927A5006D37EA /* MoviesViewModel.swift in Sources */,
 				CEC96BFD2BF808EA006D37EA /* MovieScotiabank.xcdatamodeld in Sources */,
+				CEC96C2F2BF92F11006D37EA /* MovieResponse.swift in Sources */,
+				CEE30A992BF9642900DA15AD /* MovieError.swift in Sources */,
+				CEC96C252BF85016006D37EA /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC96C072BF808EB006D37EA /* MovieScotiabankTests.swift in Sources */,
+				CE6D51292BFA86F3004F7E45 /* MoviesViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -412,6 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -437,6 +519,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +548,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +570,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.santiagoHernandez.MovieScotiabankTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,7 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.santiagoHernandez.MovieScotiabankTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
