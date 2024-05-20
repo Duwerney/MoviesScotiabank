@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE6D51292BFA86F3004F7E45 /* MoviesViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D51282BFA86F2004F7E45 /* MoviesViewModelTest.swift */; };
+		CE6D512C2BFAEACF004F7E45 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D512B2BFAEACF004F7E45 /* MovieDetailView.swift */; };
 		CEC96BF12BF808E7006D37EA /* MovieScotiabankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96BF02BF808E7006D37EA /* MovieScotiabankApp.swift */; };
 		CEC96BF32BF808E7006D37EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC96BF22BF808E7006D37EA /* ContentView.swift */; };
 		CEC96BF52BF808EA006D37EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC96BF42BF808EA006D37EA /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		CE6D51282BFA86F2004F7E45 /* MoviesViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModelTest.swift; sourceTree = "<group>"; };
+		CE6D512B2BFAEACF004F7E45 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		CEC96BED2BF808E7006D37EA /* MovieScotiabank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieScotiabank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC96BF02BF808E7006D37EA /* MovieScotiabankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScotiabankApp.swift; sourceTree = "<group>"; };
 		CEC96BF22BF808E7006D37EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,12 +97,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6D512A2BFAC916004F7E45 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CEC96C052BF808EB006D37EA /* MovieScotiabankTests */,
+				CEC96C0F2BF808EB006D37EA /* MovieScotiabankUITests */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		CEC96BE42BF808E7006D37EA = {
 			isa = PBXGroup;
 			children = (
 				CEC96BEF2BF808E7006D37EA /* MovieScotiabank */,
-				CEC96C052BF808EB006D37EA /* MovieScotiabankTests */,
-				CEC96C0F2BF808EB006D37EA /* MovieScotiabankUITests */,
+				CE6D512A2BFAC916004F7E45 /* Test */,
 				CEC96BEE2BF808E7006D37EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -183,6 +193,7 @@
 				CEDF0EA12BF93776008B70F7 /* MovieListView.swift */,
 				CEE30A9A2BF99E5800DA15AD /* SearchBarRepresentable.swift */,
 				CEE30A9E2BFA6F3400DA15AD /* SplashScreen.swift */,
+				CE6D512B2BFAEACF004F7E45 /* MovieDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -334,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC96C272BF85073006D37EA /* MovieService.swift in Sources */,
+				CE6D512C2BFAEACF004F7E45 /* MovieDetailView.swift in Sources */,
 				CEDF0EA22BF93776008B70F7 /* MovieListView.swift in Sources */,
 				CEE30A9B2BF99E5800DA15AD /* SearchBarRepresentable.swift in Sources */,
 				CEC96BFA2BF808EA006D37EA /* Persistence.swift in Sources */,

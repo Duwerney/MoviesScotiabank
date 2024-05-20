@@ -34,7 +34,12 @@ public class MoviesViewModel: ObservableObject {
         "es": "es",
         "spanish": "es",
         "español": "es",
-        "Español": "es"
+        "Español": "es",
+        "fr": "fr",
+        "Frances": "fr",
+        "ko": "kr",
+        "Koreano": "kr",
+        "zh": "zh"
     ]
     
     init() {
